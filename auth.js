@@ -1,13 +1,14 @@
 // Firebase Configuration - REPLACE WITH YOUR OWN CONFIG
 const firebaseConfig = {
-    apiKey: "AIzaSyCfa5WiTn6G1y1Dfb4-P6Kq_7fBsmCHx6A",
-    authDomain: "speedle-46122.firebaseapp.com",
-    databaseURL: "https://speedle-46122-default-rtdb.firebaseio.com",
-    projectId: "speedle-46122",
-    storageBucket: "speedle-46122.firebasestorage.app",
-    messagingSenderId: "1026644133482",
-    appId: "1:1026644133482:web:67dc48f35ad040dca7ec13",
-    measurementId: "G-DTE0P7M52E"
+    const firebaseConfig = {
+  apiKey: "AIzaSyDUMMY_API_KEY_123456",
+  authDomain: "your-project-id.firebaseapp.com",
+  databaseURL: "https://your-project-id-default-rtdb.firebaseio.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "123456789012",
+  appId: "1:123456789012:web:abcdef123456",
+  measurementId: "G-XXXXXXXXXX"
 };
 
 // Initialize Firebase
@@ -615,4 +616,5 @@ if (typeof module !== 'undefined' && module.exports) {
         handleGoogleAuth,
         handleRedirectResult
     };
+
 }
